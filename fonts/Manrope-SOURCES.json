@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-21T02:08:06.504Z",
+  "fontFamily": "Manrope",
+  "cssSourceUrl": "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap",
+  "cssUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+  "cssSnapshot": {
+    "filename": "Manrope-Google-Fonts-CSS.txt",
+    "bytes": 2168,
+    "sha256": "0ddccf95f84ec46fa3145d1d16181aef0decfa3d4a3a6248180d832d435d6c91"
+  },
+  "officialRepository": "https://github.com/google/fonts/tree/main/ofl/manrope",
+  "upstreamProject": "https://github.com/googlefonts/manrope",
+  "license": {
+    "type": "SIL Open Font License 1.1",
+    "filename": "Manrope-OFL.txt",
+    "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+    "bytes": 4387,
+    "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+  },
+  "files": [
+    {
+      "filename": "manrope-latin-wght.woff2",
+      "subset": "latin",
+      "sourceUrl": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+      "bytes": 24836,
+      "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972",
+      "fontFamily": "Manrope",
+      "fontStyle": "normal",
+      "weightRange": [
+        200,
+        800
+      ],
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "woff2Signature": "wOF2",
+      "woff2DeclaredLength": 24836,
+      "httpContentType": "font/woff2"
+    },
+    {
+      "filename": "manrope-latin-ext-wght.woff2",
+      "subset": "latin-ext",
+      "sourceUrl": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggmxSuXd.woff2",
+      "bytes": 15120,
+      "sha256": "3911b66d9f2e005a4b989223405d0e5032619c668597ba467cc76a23c8fffcfb",
+      "fontFamily": "Manrope",
+      "fontStyle": "normal",
+      "weightRange": [
+        200,
+        800
+      ],
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "woff2Signature": "wOF2",
+      "woff2DeclaredLength": 15120,
+      "httpContentType": "font/woff2"
+    }
+  ],
+  "totalFontBytes": 39956,
+  "notes": [
+    "Unmodified official Google Fonts WOFF2 subsets; no local npm dependencies installed.",
+    "Both subsets are variable normal faces with a weight axis from 200 to 800, as declared by the official CSS.",
+    "The Latin subset includes German umlauts and sharp s; the Latin-ext subset adds extended Latin coverage.",
+    "Only local font files need to be referenced by the application. The official CSS snapshot is archival source material and includes other, undownloaded language subsets."
+  ],
+  "validation": {
+    "passed": true,
+    "tool": "fontTools 4.25.0 TTFont and variable-font instancer",
+    "files": [
+      {
+        "filename": "manrope-latin-wght.woff2",
+        "family": "Manrope ExtraLight",
+        "flavor": "woff2",
+        "axes": [
+          {
+            "tag": "wght",
+            "min": 200.0,
+            "default": 200.0,
+            "max": 800.0
+          }
+        ],
+        "glyphCount": 280,
+        "cmapCount": 218,
+        "germanUmlautsAndSharpS": true,
+        "capitalSharpS": false,
+        "sampleGlyph": "A",
+        "weight200And800OutlinesDiffer": true
+      },
+      {
+        "filename": "manrope-latin-ext-wght.woff2",
+        "family": "Manrope ExtraLight",
+        "flavor": "woff2",
+        "axes": [
+          {
+            "tag": "wght",
+            "min": 200.0,
+            "default": 200.0,
+            "max": 800.0
+          }
+        ],
+        "glyphCount": 172,
+        "cmapCount": 156,
+        "germanUmlautsAndSharpS": false,
+        "capitalSharpS": true,
+        "sampleGlyph": "A",
+        "weight200And800OutlinesDiffer": true
+      }
+    ],
+    "combinedGermanCoverage": {
+      "Ä": true,
+      "Ö": true,
+      "Ü": true,
+      "ä": true,
+      "ö": true,
+      "ü": true,
+      "ß": true,
+      "ẞ": true
+    }
+  }
+}
